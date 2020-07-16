@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6, p{
     height: 70px;
     z-index: 10;
     box-shadow: none;
+    animation: simple 2s ease-in-out;
 }
 
 .nav-header{
@@ -63,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p{
     justify-content: space-between;
     padding: 0 0.8rem;
     margin: 0 1rem;
+    animation: simple 2s ease-in-out;
 }
 
 .nav-toggle{
@@ -73,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p{
     transition: var(--transition);
     cursor: pointer;
     outline: none;
+    animation: simple 2s ease-in-out;
 }
 
 .nav-toggle{
@@ -129,11 +132,13 @@ h1, h2, h3, h4, h5, h6, p{
     height: 0;
     overflow: hidden;
     transition: var(--transition);
+    animation: simple 2s ease-in-out;
 }
 
 .show-links{
     height: 450px;
     overflow-y: hidden;
+    animation: simple 2s ease-in-out;
 }
 .upper{
     text-transform: uppercase;
@@ -149,6 +154,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: lighter;
     padding: 0.90rem 0 ;
     text-align: center;
+    animation: simple 2s ease-in-out;
 }
 
 .links a:hover{
@@ -204,6 +210,7 @@ h1, h2, h3, h4, h5, h6, p{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        animation: simple 2s ease-in-out;
     }
 
     .nav-header{
@@ -218,6 +225,7 @@ h1, h2, h3, h4, h5, h6, p{
     .links{
         display: flex;
         align-items: center;
+        animation: simple 2s ease-in-out;
     }
     .links a{
         background-color: transparent;
@@ -230,6 +238,7 @@ h1, h2, h3, h4, h5, h6, p{
         margin: 0 1rem;
         font-weight: lighter;
         padding: 0;
+        animation: simple 2s ease-in-out;
     }
 
     .links a:hover{
@@ -277,6 +286,7 @@ section{
     width: 100%;
     min-height: 20vh;
     transition: var(--transition);
+    animation: simple 2s ease-in-out;
 }
 
 .logo-footer{
@@ -313,6 +323,7 @@ section{
     font-weight: lighter;
     margin-top: 2rem;
     letter-spacing: var(--spacing);
+    animation: simple 2s ease-in-out;
 }
 .footer-center{
     display: flex;
@@ -322,12 +333,14 @@ section{
     margin-left: 4rem;
     margin-bottom: 2rem;
     transition: var(--transition);
+    animation: simple 2s ease-in-out;
 }
 
 .social-media{
     display: flex;
     align-items: center;
     transition: var(--transition);
+    animation: simple 2s ease-in-out;
 }
 
 .social-media>*{
@@ -337,6 +350,7 @@ section{
 .footer-nav{
     display: flex;
     align-items: center;
+    animation: simple 2s ease-in-out;
 }
 
 .footer-nav a{
@@ -350,6 +364,7 @@ section{
         margin: 0 .8rem;
         font-weight: lighter;
         padding: 0;
+        animation: simple 2s ease-in-out;
 }
 
 .footer-bar{
