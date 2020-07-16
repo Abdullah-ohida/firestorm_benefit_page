@@ -455,8 +455,8 @@ section{
 
 .head-line p{
     color: white;
-    letter-spacing: var(--spacing);
     font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Benefit Content */
@@ -511,7 +511,6 @@ article{
 article h2{
     font-size: 1.5rem;
     color:  #444444;
-    font-weight: lighter;
 }
 
 article p{
@@ -647,12 +646,13 @@ article p{
         font-size: 1rem;
         font-weight: lighter;
     }
-    
+
+    article h2{
+        font-size: 1.3rem;
+    }
     /* Benefit Content */
-
-
     .benefit-container{
-        width: 80%;
+        width: 90%;
         padding: 1rem 1rem;
     }
 
@@ -669,18 +669,45 @@ article p{
     
     .review-content{
         width: 90%;
-
+    }   
+    .load-more{
+        float: right;
+        margin-right: 10rem;
+        outline: none;
     }
-
-    
-.load-more{
-    float: right;
-    margin-right: 10rem;
-    outline: none;
-  }
-    
+    .img-item{
+        width: 250px;  
+        text-align: center;
+    }    
 }
 
+@media screen and (max-width: 500px){  
+    .review-content{
+        padding: 0rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .review-flex{
+        width: 280px;
+        padding: 1rem;
+    }
+    .avater{
+        width: 50px;
+    }
+    
+    .review-flex h4{
+        font-size: .8rem;
+    }
+    
+    .comment{
+        font-size: 0.8rem;
+    }
+    
+    .about p{
+        font-size: 0.8rem;
+    }
+}
 
 
 
