@@ -674,9 +674,17 @@ article p{
         font-size: 1.3rem;
     }
     /* Benefit Content */
+  
     .benefit-container{
-        width: 90%;
+        display: block;
+        background: rgba(216, 49, 91, 0.23);
+        width: auto;
+        height: auto;
         padding: 1rem 1rem;
+        margin-bottom: 2rem;
+        max-width: none;
+        width: 90%;
+        animation: simple 2s ease-in-out;
     }
 
     article{
@@ -686,30 +694,88 @@ article p{
     .head-title{
         width: 90%;
     }
-    .review-text{
-        font: 1.4rem;
+
+    .img-item{
+        width: 100%; 
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        object-fit: fill;
     }
-    
+
+        
+    .like{
+        float: none;
+        margin-bottom: 0.5rem;
+    }
+
+    .load-btn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
     .review-content{
         width: 90%;
-    }   
-    .load-more{
-        float: right;
-        margin-right: 10rem;
-        outline: none;
     }
-    .img-item{
-        width: 250px;  
-        text-align: center;
-    }    
+  
 }
 
-@media screen and (max-width: 500px){  
+@media screen and (max-width: 500px){ 
+    .benefit-content{
+        padding: 0 1rem;
+    }
+    .benefit-container{
+        display: block;
+        background: rgba(216, 49, 91, 0.23);
+        width: auto;
+        height: auto;
+        padding: 1rem 1rem 1.5rem;
+        margin-bottom: 2rem;
+        max-width: none;
+        animation: simple 2s ease-in-out;
+    }
+    
+    .img-item{
+        width: 100%; 
+        margin: 0 auto; 
+        
+    }
+    
+    article{
+        width: 100%;
+    }
+    
+    article h2{
+        font-size: 1rem;
+        color:  #444444;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+        border-bottom: 2px solid;
+    }
+    
+    article p{
+        color:  #444444;
+        font-weight: bold;
+    }
+    
+     .like{
+        float: none;
+        margin-bottom: 0.5rem;
+    }
+
+    .load-btn{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    /* review */
     .review-content{
         padding: 0rem;
         margin-bottom: 1rem;
     }
-    
     
     .review-flex{
         width: 280px;

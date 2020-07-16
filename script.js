@@ -94,10 +94,12 @@ const loadItem = [
     // });
     loadBtn.addEventListener('click', function(){
         if(sectionCenter.classList.contains('show-more')){
-            sectionCenter.classList.remove('show-more')
+            sectionCenter.classList.remove('show-more');
+            loadBtn.textContent = "load more"
         }
         else{
             sectionCenter.classList.add('show-more');
+            loadBtn.textContent = "hide"
             let displayItem = loadItem.map(function (item){
                 return ` <div class="benefit-container">
                 <div class="img-item">
