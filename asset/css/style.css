@@ -469,6 +469,7 @@ section{
     overflow: hidden;
     width: 100%;
     transition: var(--transition);
+    animation: simple 2s ease-in-out;
 }
 
 .show-more{
@@ -488,6 +489,7 @@ section{
     border-radius: var(--radius);
     transition: var(--transition);
     max-width: 100%;
+    animation: simple 2s ease-in-out;
 }
 
  .benefit-content{
@@ -582,6 +584,7 @@ article p{
    padding: 1rem;
    color: var(--white);
    border-radius: 5px 5px 0px 0px;
+   animation: simple 2s ease-in-out;
 }
 .head-title h2{
     font-size: 1.4rem;
@@ -600,6 +603,7 @@ article p{
     border-radius: 0px 0px 5px 5px;
     transition: var(--transition);
     max-width: 100%;
+    animation: simple 2s ease-in-out;
 }
 
 
@@ -611,6 +615,7 @@ article p{
     border-radius: 2px;
     margin: 2rem auto;
     transition: var(--transition);
+    animation: simple 2s ease-in-out;
 }
 
 .avater img{
