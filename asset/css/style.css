@@ -461,6 +461,17 @@ section{
 
 /* Benefit Content */
 
+.contain{
+    height: 430px;
+    overflow: hidden;
+    width: 100%;
+    transition: var(--transition);
+}
+
+.show-more{
+    height: auto;
+}
+
 .benefit-container{
     display: flex;
     align-items: center;
@@ -479,9 +490,10 @@ section{
  .benefit-content{
     width: 100%;
     position: relative;
-    margin: 2rem 0 5rem;
+    margin: 2rem 0 7rem;
     transition: var(--transition);
 } 
+
 
 .img-item img{
     max-width: 100%;
@@ -517,6 +529,8 @@ article p{
     align-items: center;
     justify-content: space-between;
     margin-top: .6rem;
+    outline: none;
+    transition: var(--transition);
 }
 
 .like>*{
@@ -524,13 +538,11 @@ article p{
 }
 .heart{
     width: 20px;
+    cursor: pointer;
 }
 
 .load-more{
   width: 120px;
-  position: absolute;
-  right: 20%;
-  bottom: -3rem;
   background-color: #D8315B;
   color: white;
   border: none;
@@ -540,6 +552,9 @@ article p{
   border-radius: 3px;
   transition: var(--transition);
   cursor: pointer;
+  float: right;
+  margin-right: 19rem;
+  outline: none;
 }
 .load-more:hover{
     background-color: transparent;
@@ -586,7 +601,6 @@ article p{
 }
 
 
-
 .review-flex{
     width: 200px;
     background-color: var(--white);
@@ -594,6 +608,7 @@ article p{
     padding: .8rem;
     border-radius: 2px;
     margin: 2rem auto;
+    transition: var(--transition);
 }
 
 .avater img{
@@ -620,6 +635,43 @@ article p{
 .about p{
     font-size: 0.7rem;
     color: #444444;
+}
+
+@media screen and (max-width:800px){
+    
+    .head-line{
+        width: 90%;
+    }
+
+    .head-line p{
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+    
+    /* Benefit Content */
+
+
+    .benefit-container{
+        width: 80%;
+        padding: 1rem 1rem;
+    }
+
+    article{
+        margin-top: 1rem;
+    }
+
+    .head-title{
+        width: 90%;
+    }
+    .review-text{
+        font: 1.4rem;
+    }
+    
+    .review-content{
+        width: 90%;
+
+    }
+    
 }
 
 
