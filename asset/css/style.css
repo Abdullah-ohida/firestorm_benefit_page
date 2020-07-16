@@ -671,6 +671,13 @@ article p{
         width: 90%;
 
     }
+
+    
+.load-more{
+    float: right;
+    margin-right: 10rem;
+    outline: none;
+  }
     
 }
 
