@@ -465,7 +465,7 @@ section{
 /* Benefit Content */
 
 .contain{
-    height: 430px;
+    height: 410px;
     overflow: hidden;
     width: 100%;
     transition: var(--transition);
@@ -583,8 +583,8 @@ article p{
    color: var(--white);
    border-radius: 5px 5px 0px 0px;
 }
-.review-text{
-    font: 1.4rem;
+.head-title h2{
+    font-size: 1.4rem;
 }
 
 .review-content{
