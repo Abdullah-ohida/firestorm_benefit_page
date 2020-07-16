@@ -770,6 +770,9 @@ article p{
         align-items: center;
         justify-content: start;
     }
+    .load-more{
+        margin-right: 0;
+    }
     
     /* review */
     .review-content{
